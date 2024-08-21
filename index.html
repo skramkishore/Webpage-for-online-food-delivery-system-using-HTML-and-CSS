@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Food Delivery Service</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Delicious Food Delivered to Your Doorstep</h2>
+            <a href="#menu" class="btn">Order Now</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="pizza.jpg" alt="Pizza">
+                    <h3>Pizza</h3>
+                    <p>Delicious cheese pizza with toppings of your choice.</p>
+                    <button class="btn">Order Now</button>
+                </div>
+                <div class="menu-item">
+                    <img src="burger.jpeg" alt="Burger">
+                    <h3>Burger</h3>
+                    <p>Juicy burger with fresh ingredients and crispy fries.</p>
+                    <button class="btn">Order Now</button>
+                </div>
+                <div class="menu-item">
+                    <img src="pasta.jpg" alt="Pasta">
+                    <h3>Pasta</h3>
+                    <p>Italian pasta with rich and creamy sauce.</p>
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are dedicated to delivering the best food to our customers. With a wide variety of dishes, you can enjoy restaurant-quality meals in the comfort of your home.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have any questions or feedback? Get in touch with us.</p>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Food Delivery Service. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
